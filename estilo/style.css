@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #6458E8;
+    --cor2: #574DC9;
+    --cor3: #4C43B0;
+    --cor4: #3B349D;
+    --cor5: #8B67F5;
+    --cor6: #945EDB;
+    --cor7: #B75CF2;
+    --cor8: #C741EB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+header {
+    background-color: var(--cor4);
+    background-image: linear-gradient(to top, var(--cor4), var(--cor1));
+}
